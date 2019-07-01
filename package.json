@@ -1,7 +1,7 @@
 {
-  "name": "wk_5_full_stack",
+  "name": "myapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "crud and routes",
   "main": "index.js",
   "scripts": {
     "dev": "run-p watch-client watch-server",
@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Omphalus Kua",
   "license": "ISC",
   "babel": {
     "presets": [
@@ -34,7 +34,7 @@
     "babel-loader": "^8.0.5",
     "express": "^4.17.1",
     "hash-router": "^0.4.0",
-    "knex": "^0.18.0",
+    "knex": "^0.18.1",
     "nodemon": "^1.19.1",
     "npm-run-all": "^4.1.5",
     "react": "^16.8.6",
@@ -43,5 +43,14 @@
     "superagent": "^5.0.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haluskua/REACT-APP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haluskua/REACT-APP/issues"
+  },
+  "homepage": "https://github.com/haluskua/REACT-APP#readme"
 }

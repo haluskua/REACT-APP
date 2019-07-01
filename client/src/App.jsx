@@ -11,8 +11,10 @@ class App extends React.Component {
     return (
       <Router>
         <React.Fragment>
-          <Route path="/Header" component={Header} />
-          <Route path="/Body" component={Body} />
+          <div className="App_header">
+            <Route path="/Header" component={Header} />
+            <Route path="/Body" component={Body} />
+          </div>
         </React.Fragment>
       </Router>
     );
