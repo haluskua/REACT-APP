@@ -32,7 +32,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.7.1",
     "babel-loader": "^8.0.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hash-router": "^0.4.0",
     "knex": "^0.18.1",
     "nodemon": "^1.19.1",
